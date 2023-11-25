@@ -1,0 +1,33 @@
+echo "# notes-web-dev" >> README.md
+  git init
+  git add README.md
+  git commit -m "first commit"
+  git branch -M main
+  git remote add origin https://github.com/Japonga/notes-web-dev.git
+  git push -u origin main
+
+Section 1
+
+Aula 1
+
+Inthernet functions as a giant cable, the server provides the data and files that the client wants. When a client wants to access a server domain, he types the url, that will be sent to the Internet Service Provider
+(ISP), which will look upon the Domain Name System (DNS) for this specific url, and send it back to the client. Every client and server has an IP adress
+
+Aula 2
+
+There are three types of files that are sent to the client
+HTML
+Responsible for the content in the website, like text, images, buttons, links
+
+CSS
+Responsible for the styling of the website, determining how the website will look, like corners and colors of buttons, font of texts
+
+JS (JavaScript)
+
+Code that allows the website to have functionality. Turns a website into something that a user can interact.
+
+Browser is a type of software that processes these three types of files.
+On chrome, I can right-click and select inspect, allowing to access the chrome developer tools, where it's possible to edit some of the site files.
+
+
+
