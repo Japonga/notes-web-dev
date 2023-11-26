@@ -1,0 +1,29 @@
+<h1>Section 2 : Introduction to HTML</h1>
+<h2>Heading Elements</h2>
+HyperTextMarkupLanguage
+HyperText is a hyperlink that when clicked opens up a new file
+MarkupLanguage is for bold, italic, etc. It's used by tags
+
+It's possible to create a site only with the HTML file.
+
+Heading starts with a opening tag and a closing tag
+
+<h1>Hello World</h1>
+
+<h1> and </h1> are the tags
+"Hello World" is the content
+The element consists of the tags and the content inside it
+
+There's 6 headings
+The level 1 headings are the biggest, while the 6 is the smallest
+Only use ONE h1, and don't skip levels, e.g. h1 to h3
+
+<h2>Paragraph Elements</h2>
+
+The paragraph element consists of content between the tags <p></p>
+This element is used properly separate paragraphs, otherwise the text is displayed lumped
+
+Lorem Ipsum is a tool to generate paragraphs. that is obtained at the website www.lipsum.com
+
+<h2>Self closing tags</h2>
+
