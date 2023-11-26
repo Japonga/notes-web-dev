@@ -27,3 +27,17 @@ Lorem Ipsum is a tool to generate paragraphs. that is obtained at the website ww
 
 <h2>Self closing tags</h2>
 
+Void elements have no content and consists of <"name of the tag" />
+
+Horizontal rule: inserts a horizontal line
+<hr />
+
+Break: inserts a line break
+<br />
+
+Always create new paragraphs with a new paragraph element instead of a break
+The break element is useful for poems or adresses, which have a sigle paragraph with line breaks
+
+<h2>Movie ranking</h2>
+
+
