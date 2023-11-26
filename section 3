@@ -1,0 +1,41 @@
+<h1>Section 3</h1>
+<h2>The List Element</h2>
+
+
+<h3>Unordered list>/h3>
+<ul>
+  <li>Milk<li>
+  <li>Eggs<li>
+  <li>Flour<li>
+</ul>
+<p>gives bullet points before the text of each list item</p>
+
+<h3>Ordered list</h3>
+<ol>
+  <li>Milk<li>
+  <li>Eggs<li>
+  <li>Flour<li>
+</ol>
+<p>Gives numbers before the text of each list item</p>
+
+<p><ol></ol> and <ul></ul> need list items (<li></li>) in between then to work properly</p>
+
+<h2>Nesting and Indentation</h2>
+
+Inside a list item, I can embed another list
+
+<ul>
+  <li>Wake up and brush teeth</li>
+  <li>Drink coffee<li>
+  <li>Prepare for Gym
+    <ul>
+      <li>Wear gym shorts, shirt and shoes<li>
+      <li>Drink a dose of Whey protein<li>
+      <li>Use sunscreen</li>
+    </ul>
+  </li>
+  <li>After gym, take a bath and go to work</li>
+</ul>
+
+
+
