@@ -37,5 +37,23 @@ Inside a list item, I can embed another list
   <li>After gym, take a bath and go to work</li>
 </ul>
 
+<h2> Tag attributes</h2>
+
+<tag attribute=value>content>/tag>
+
+<p>Multiple attributes</p>
+
+<p><tag attributeone=value attributetwo=value>content</tag></p>
+
+There are global and specific attributes
 
 
+<p>Anchor element: 
+<a href=link>content</a>
+</p>
+
+<h2>Image elements</h2>
+<p>The image element is composed of the tag <img> and the main component of this element is the attribute src, which gives the location of the image. It's also a self closing element</p>
+<p><img src="url" /></p>
+<p>Just like the lorem ipsum text, there's also lorem ipsum images avaiable at the website https://picsum.photos/200, which is useful to test images</p>
+<p>The alt attribute provides an alternative text description of the image. It's important for the comprehension of blind people</p>
