@@ -57,3 +57,30 @@ There are global and specific attributes
 <p><img src="url" /></p>
 <p>Just like the lorem ipsum text, there's also lorem ipsum images avaiable at the website https://picsum.photos/200, which is useful to test images</p>
 <p>The alt attribute provides an alternative text description of the image. It's important for the comprehension of blind people</p>
+
+
+<h2>Computer Path Files</h2>
+<p>The way the computer finds the files is by following the "address": Root/folder/folder/file e.g. C:/User/Downloads/file.html</p>
+<p>In web development, it's common to start the path by using a dot (.) or double dots (..), the first searches in the current folder where the program file is, while the latter searches on one level above</p>
+
+<h2>Multi-page websites</h2>
+<p>To create multip-page websites we use anchor elements with the attribute href sending the user to the multiple files in the project folder</p>
+
+<h2>html boilerplate</h2>
+<p>The boilerplate is writen as:<br />
+<!DOCTYPE html><br />
+<html lang="en"><br />
+  <head><br />
+    <meta charset="UTF-8"><br />
+    <title>My Website</title><br />
+  </head><br />
+  <body><br />
+  </body><br />
+</html>
+</p>
+<p> The lang attribute refers to the language displayed at the website, charset is usually UTF-8, title is the name of the website that is displayed at the web tab, and in the body is the content of the website</p>
+
+
+
+
+
