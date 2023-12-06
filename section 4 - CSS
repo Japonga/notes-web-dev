@@ -1,4 +1,33 @@
-<h1>Introduction to CSS</h1>
-<p>CSS is for Cascading Style Sheets, the cascade means the styling goes from general to more specific. SS means the Style Sheet language.</p>
+<!DOCTYPE html>
+<html>
+  <head>
+  </head>
+  <body>
+    <h1>Introduction to CSS</h1>
+    <p>CSS is for Cascading Style Sheets, the cascade means the styling goes from general to more specific. SS means the Style Sheet language.</p>
+    <p>There are three types of CSS, inline, internal and external. The first is written as an attribute in the tag that is gonna be stylized, being useful for changing
+    a specific part of the website. The internal is written inside the content of the head element and styles all the tags inside the html, which is good to change a website.
+    The external CSS is used calling a css file, usually named styles.css, which applies all the styles in the html file, being useful for multi-page websites.</p>
+    <p>Inline example: <h2 style:"color: blue">Style me blue</h2></p>
+    <p>Internal example:
+    <head>
+      <style>
+        html{
+          background-color: red;
+        }
+      </style>
+    </head></p>
+    <p>External example: 
+      <head>
+        <link rel:"stylesheets" href"./styles.css" />
+      </head>
+      styles.css:
+      h1{
+        color: green
+      }
+    </p>
+  </body>
+</html>
+
 
 
