@@ -5,6 +5,7 @@
   <body>
     <h1>Introduction to CSS</h1>
     <p>CSS is for Cascading Style Sheets, the cascade means the styling goes from general to more specific. SS means the Style Sheet language.</p>
+    <h2>CSS styles</h2>
     <p>There are three types of CSS, inline, internal and external. The first is written as an attribute in the tag that is gonna be stylized, being useful for changing
     a specific part of the website. The internal is written inside the content of the head element and styles all the tags inside the html, which is good to change a website.
     The external CSS is used calling a css file, usually named styles.css, which applies all the styles in the html file, being useful for multi-page websites.</p>
@@ -26,6 +27,60 @@
         color: green
       }
     </p>
+    <p>
+    <style>
+      inside the style there is a property:value e.g. color: blue
+    </style>
+    </p>
+    <h2>CSS selectors</h2>
+    <p>A CSS selector is the part that selects the html to apply whichever rules goes in the curly braces {}. Element selector selects a tag to style all of it's elements e.g. h1{properties:values}. </p>
+    <p>Classes are attributes that can be added to any html element. Classes group html files, so that they can be all stylized by using class selectors. </p>
+    <p>class example:
+        <h2 class="red-font"> red color</h2>
+        <p class="red-font"> also red. </p>
+        in styles.css
+        .red-font{
+          color: red;
+        }
+    </p>
+ <p>ID's can also be added to any html element. ID selector is written by #ID. The id are unique, only one per element, that is the difference between this selector and class selector </p>
+    <p>id example:
+        <h2 id="green-font" class="red-font"> now green color</h2>
+        <p class="red-font"> this is red. </p>
+        in styles.css
+        .red-font{
+          color: red;
+        }
+        #green-font{
+          color: green
+        }
+    </p>
+ <p>Attribute elements can be used to style the elements with a specified attribute by using element[attribute] e.g p[draggable]. </p>
+    <p>id example:
+        <h2 id="green-font" class="red-font"> now green color</h2>
+        <p class="red-font"> this is red. </p>
+        in styles.css
+        .red-font{
+          color: red;
+        }
+        #green-font{
+          color: green
+        }
+    </p>
+
+ <p>ID's can also be added to any html element. ID selector is written by #ID. The id are unique, only one per element, that is the difference between this selector and class selector </p>
+    <p>id example:
+        <h2 id="green-font" class="red-font"> now green color</h2>
+        <p class="red-font"> this is red. </p>
+        in styles.css
+        .red-font{
+          color: red;
+        }
+        #green-font{
+          color: green
+        }
+    </p>
+
   </body>
 </html>
 
