@@ -57,29 +57,16 @@
     </p>
  <p>Attribute elements can be used to style the elements with a specified attribute by using element[attribute] e.g p[draggable]. </p>
     <p>id example:
-        <h2 id="green-font" class="red-font"> now green color</h2>
-        <p class="red-font"> this is red. </p>
-        in styles.css
-        .red-font{
-          color: red;
+        p[draggable]{
+          color:red
         }
-        #green-font{
-          color: green
+        another example:
+        p[draggable="false"]{
+          color:red
         }
     </p>
 
- <p>ID's can also be added to any html element. ID selector is written by #ID. The id are unique, only one per element, that is the difference between this selector and class selector </p>
-    <p>id example:
-        <h2 id="green-font" class="red-font"> now green color</h2>
-        <p class="red-font"> this is red. </p>
-        in styles.css
-        .red-font{
-          color: red;
-        }
-        #green-font{
-          color: green
-        }
-    </p>
+ <p>Universal selector is written with asterisk and selects all elements to style. *{properties:values}.</p>
 
   </body>
 </html>
