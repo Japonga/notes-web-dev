@@ -14,3 +14,8 @@ element of the html. When writint the font-family, it's used the main font follo
 <h2>CSS weight</h2>
 <p>The weight of the font determines if the content is bold or light. The value bold makes the text bold. A numerical value between 100-900 can also be used, the higher the number the bolder the text becomes.
 Lighter and bolder are values that make the content -100 or +100 bolder relative to the parent.</p>
+<h2>CSS inspection</h2>
+<p>In Google Chrome, use the F12 or inspect option to open the Chrome Developer Tools. In there, it's possible to visualize the code behind the html and CSS of the website. The styles tab is useful to know which properties
+are applied to a specific element of the website. The CSS overview tab is very useful to find the website's colours and font families used.</p>
+
+
