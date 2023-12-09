@@ -1,0 +1,7 @@
+<h1>Advanced CSS</h1> 
+<h2>Display</h2>
+<p>A paragraph element, by default, has it's display property set to block, which means a block of the widht of the whole page is created where the text is written. The span element has a inline display as default, which makes the 
+element occupy only the lenght of the content, but unable to change it's width and height. The inline-block is a middle-term property, which allows to have multiple blocks in the same line, with changeable width and height.</p>
+<h2>Float</h2>
+<p>The float property allows to make text wrap around the element. For example an image with the property float:left followed by a paragraph, has the text wrapped on its right side, until the image is over and the text goes back
+to the full line. The clear property allows to remove any float property an element has e.g. footer{clear:left}</p>
