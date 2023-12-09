@@ -26,5 +26,12 @@ then the classes,id.</p>
 <p>Combining combiners</p>
 <p>Example: selector selectorselector{property: Value}</p>
 
+<h2>CSS positioning</h2>
+<p>Static position: The default position of the element.</p>
+<p>Relative position: Position of the element is relative to the default.</p>
+<p>Absolute position: Position relative to the closest ancestor with position, otherwise it's positioned relative to the top left corner of the page</p>
+<p>Fixed position: Position relative to the top left corner of the webpage, but it stays there even after scrolling up or down.</p>
+
+
 </body>
 
