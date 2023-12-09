@@ -1,0 +1,16 @@
+<h1>CSS properties</h1>
+<h2>CSS colours</h2>
+<p>There are two ways of writing the values of colours in CSS, the name of the color or it's hexcode. The hexcode represents the rgb numbers of a specific color. The site <a href="https://colorhunt.co/">colorhunt</a> is 
+useful to find many color palletes and their hexcodes. The mdn color page can also be used to find the desired colours.</p>
+<h2>CSS font size</h2>
+<p>There are four types of font sizes values. Pixels (px) and points (pt) are absolute values, the latter being bigger than the first. In microsoft word, the size of the font is in points. em and rem are relative font-sizes,
+the number that precedes then are how many times the font will be bigger than the relative. em is relative to the parent, while rem is relative to the root, the html element. Usually, it's better to use the rem to avoid 
+confusion.</p>
+<h2>CSS font family</h2>
+<p>The font families can be found at <a href="https://fonts.google.com/">google fonts</a>. This website provides links to install the fonts in the user computer and the property:value syntax. The links are paste in the head
+element of the html. When writint the font-family, it's used the main font followed by a backup font, in case the user doesn't have the first installed.</p>
+<h2>font align</h2>
+<p>The font can be aligned by left, center, right, justify, start and end.</p>
+<h2>CSS weight</h2>
+<p>The weight of the font determines if the content is bold or light. The value bold makes the text bold. A numerical value between 100-900 can also be used, the higher the number the bolder the text becomes.
+Lighter and bolder are values that make the content -100 or +100 bolder relative to the parent.</p>
