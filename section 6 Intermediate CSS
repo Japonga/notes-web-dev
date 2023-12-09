@@ -1,0 +1,30 @@
+<body>
+<h1>Intermediate CSS</h1>
+<h2>CSS cascade</h2>
+<p>Multiple styles can be applied in the same element, but the hierarchy defines which of the styles will be applied.</p>
+<p>The cascade consists of position, specificity, type and importance</p>
+<p>position:</p>
+li{
+color: red;
+color: blue;
+}
+<p>The lower down in the css, the more important it is.</p>
+<p>Specificit:selector importances  ID > attribute > class > element. </p>
+<p>Type: Inline > Internal > External </p>
+<p>Importance: If !important is written after the propertie value, it overwrites all other CSS. e.g. color: black !important; </p>
+
+<h2>Combining CSS selectors</h2>
+<p>In order to reduce clutter in the code we combine the CSS selectors. One way of combining is by grouping, writing the selectors separed by a comma and a space.</p>
+<p>Example: h1, h2{color: purple;}</p>
+<p>Another way of combining selectors is by Child, with the sign >. The first tag acts as a parent, while the second is the direct child.</p>
+<p>Example: div > p{color: firebrick;}</p>
+<p>Combining by descendant is writing the selectors separed by a space. Unlike the child, the descendant doesn't have to be direct to the parent</p>
+<p>Example: .box li{color: blue;}</p>
+<p>Chaining selectors is writing the selectors all together. This will apply the style only at places where all selectors chained are true. This is a very specific combiner. Always start writing an element
+then the classes,id.</p>
+<p>Example: li.done{color: seagreen;}</p>
+<p>Combining combiners</p>
+<p>Example: selector selectorselector{property: Value}</p>
+
+</body>
+
