@@ -17,5 +17,9 @@ Lighter and bolder are values that make the content -100 or +100 bolder relative
 <h2>CSS inspection</h2>
 <p>In Google Chrome, use the F12 or inspect option to open the Chrome Developer Tools. In there, it's possible to visualize the code behind the html and CSS of the website. The styles tab is useful to know which properties
 are applied to a specific element of the website. The CSS overview tab is very useful to find the website's colours and font families used.</p>
-
-
+<h2>CSS box model</h2>
+<p>width and height: the values used can be a number of pixels or a percentage of the screen. If we use 100%, the whole width or height of screen is used to display the element that is being stylized.</p>
+<p>border: The border propertie has three values, thickness, style and color. The thickness controls how thick the border is. The style defines if the line is solid, dashed, dotted, etc. And the color defines the border color
+. Example: border: 10px solid black. There are properties that can be added to the border. If border-top is set to 0px, the top part of the border won't exist. The border-width property can have 2 or 4 values. If 4 values are
+used, it follows the sequence 1:top, 2:right, 3:bottom and 4:left. If 2 values are used, the first changes the 1/3 borders, while the second changes the 2/4.</p>
+<p>The padding adds a space between the element and the border. The margin is also used to add spacing, but in the part outside of the border. The padding and margin can also accept 2 or 4 values like the border-width</p>
