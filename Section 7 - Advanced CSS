@@ -5,3 +5,10 @@ element occupy only the lenght of the content, but unable to change it's width a
 <h2>Float</h2>
 <p>The float property allows to make text wrap around the element. For example an image with the property float:left followed by a paragraph, has the text wrapped on its right side, until the image is over and the text goes back
 to the full line. The clear property allows to remove any float property an element has e.g. footer{clear:left}</p>
+<h2>How to create responsive websites</h2>
+<p>When the content of a website adapts to the screen size avaiable to display, it categorizes a responsive website. In order to make one, there are several methods, like media query, CSS grid, CSS flexbox and 
+Bootstrap Framework.</p>
+<p>Media query sets a width range in which a css file will act in the website. When the range is higher or lower than a specified value, the CSS file changes in order to adapt to the new screen size.</p>
+<p>CSS grid allows to easily create grids with rows and columns that can adapt to the size of the website.</p>
+<p>The CSS flexbox creates a unidirectional line of boxes, horizontally or vertically.</p>
+<p>Bootstrap framework is a code created based on the CSS flexbox, with several classes with predefined stylizations.</p>
