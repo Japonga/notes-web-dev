@@ -23,3 +23,6 @@ are applied to a specific element of the website. The CSS overview tab is very u
 . Example: border: 10px solid black. There are properties that can be added to the border. If border-top is set to 0px, the top part of the border won't exist. The border-width property can have 2 or 4 values. If 4 values are
 used, it follows the sequence 1:top, 2:right, 3:bottom and 4:left. If 2 values are used, the first changes the 1/3 borders, while the second changes the 2/4.</p>
 <p>The padding adds a space between the element and the border. The margin is also used to add spacing, but in the part outside of the border. The padding and margin can also accept 2 or 4 values like the border-width</p>
+<h2>Content division element</h2>
+<p>The div element is completely invisible and it's purpose is a invisible box which can have content in between the tags. The pesticide googlhe chrome extension can be used to make it easier to identify the divs inside
+a website, which facilitates debugging.</p>
