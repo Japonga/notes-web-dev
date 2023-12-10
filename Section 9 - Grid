@@ -21,3 +21,14 @@ respond if the size of the website changes, it's fixed sizing.</p>
 a size.</p>
 
 <h2>Grid Placement</h2>
+<p>The grid has many components:</p>
+<ul>
+  <li>Grid container: the div that contains the grid</li>
+  <li>Grid tracks: where the rows and columns are placed</li>
+  <li>Grid cells: smallest unit in the css grid</li>
+  <li>Grid items: the content placed in the grid </li>
+  <li>Grid lines: the gap between the tracks</li>
+</ul>
+<p>There are properties span (merge) cells and place an item in it. The grid-column: span 2 makes the item span 2 cells in the horizontal. This command is a shortcut to two properties: grid-column-start and grid-column-end. There's also a similar property, the grid-row.
+Just like the flexbox tool, the grid items also have order number, which is useful in case we want to change the layout. Another way to choose the place of the grid to place the item is using the properties:grid-column-start, grid-column-end, grid-row-start and grid-row-end. </p>
+<p>These four properties can be written as grid-area: grid-row-start / grid-column-start / grid-row-end / grid-column-end. </p>
