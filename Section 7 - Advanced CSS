@@ -12,3 +12,13 @@ Bootstrap Framework.</p>
 <p>CSS grid allows to easily create grids with rows and columns that can adapt to the size of the website.</p>
 <p>The CSS flexbox creates a unidirectional line of boxes, horizontally or vertically.</p>
 <p>Bootstrap framework is a code created based on the CSS flexbox, with several classes with predefined stylizations.</p>
+
+<h2>Media Queries</h2>
+<p>Media query sets a breakpoint to change the CSS of the webpage when the number of pixels is higher or lower than the defined</p>
+<p>Example: <h1>Hello World!</h1></p>
+<p>@media (max-width:600){
+  h1{
+    font-size:15px;
+  }
+}</p>
+<p>Max width changes if the value is equal or less the pixel count, while the min width changes the style if the pixel count is equal or higher than the value. It's possible to combine media queries with "and".</p>
