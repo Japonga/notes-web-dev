@@ -1,6 +1,7 @@
 <h1>Grid</h1>
 <h2>Flexbox vs Grid</h2>
 <p>The Flexbox is very useful to align the items and place then in the page, while the Grid is great for 2D layouts, with columns and rows. There's the possibility of combining these two tools, using Flexbox inside Grid or Grids inside Flexbox.</p>
+<h2>Grid Sizing</h2>
 <p>Grid example:</p>
 <p>.container{
 display: grid;
@@ -10,5 +11,13 @@ gap: 10px
 }</p>
 <p>The values 1fr and 2fr in the grid-template-columns property means that the first column will have a fraction of space in the ratio 1:2 compared to the second column e.g. first column 100px and second column 200px.</p>
 <p>It is also possible to assign pixel values to the properties above. grid-template-rows: 100px 200px (changes height of the row) grid-template-columns: 200px 400px (changes width of the column). Theses numerical values won't
-respond if the size of the website changes. There's also the auto value, which will make the column width occupy the rest of the page or make the row height adjust to the content.</p>
+respond if the size of the website changes, it's fixed sizing.</p>
+<p>There's also the auto value, which will make the column width occupy the rest of the page or make the row height adjust to the content.</p>
+<p>The minmax function determines the minimum and maximum height we want for a specified column. Example: minmax(400px, 800px)</p>
+<p>The repeat function is useful to reduce the amount of values written for the sizes of the columns and rows. Example: repeat(8, 1fr), the first number is the amount of repetitions and the other number is the sizing.</p>
+<p>The grid-template-columns and grid-template-rows properties can be combined into the grid-template. The values for this property are rows sizes / columns sizes.</p>
+<p>If there aren't enough items inside the grid container, the existing ones will fill the grid from left to right then top to bottom.</p>
+<p>If there are more items than blocks in the grid, it will auto-fill in the next row, with automatic height and width, acording to the content and previous columns. If it's desired to change the size of these new items added, the property grid-auto-rows allow us to set
+a size.</p>
 
+<h2>Grid Placement</h2>
