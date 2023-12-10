@@ -1,0 +1,19 @@
+<h1>Flexbox</h1>
+<p>The float is ufesul for making text wrap around an image. For page structure, flexbox is recomended. To make it, we create a container div with several divs inside.</p>
+<p>Then, use .container{display:flex}</p>
+<p>There's an gap property that allows to separate the contents of the container. Just like block elements, the flex display is a block that goes to the end of the axis on the page. To make the size of the flexbox adjust
+to the content inside it, we use the display:inline-flex.</p>
+<p>The flex direction property allows changes in the main axis of the flexbox. By default, this property is set to row, which means the main axis goes from left to right. If the property is set to column, then the main
+axis goes from top to bottom.</p> 
+<p>The flex-basis property can be applied to all the children of the container. It changes the size of the box's basis based on the main axis e.g. if the flex-direction is set to column, the flex-basis will change the height
+of the box.</p>
+<h2>Some flexbox properties</h2>
+<p>flex-wrap: By default, items will be written in the same line. If changed to wrap, the items will wrap according to the width/height of the webpage.</p>
+<p>justify-content: used to alocate the items of the container based on the main axis. flex-start, flex-end, center, space-between, space-around, space-evenly</p>
+<p>align-items:The align-items property of flex-box aligns the items inside a flex container along the cross axis just like justify-content does along the main axis.flex-start, flex-end, center, stetch, baseline</p>
+<p>align-content: align a flex container items within the cross axis. Only works with wrap. align-content is for multi line flexible boxes. It has no effect when items are in a single line. It aligns the whole structure according to its value.
+flex-start, flex-end, center, space-between, space-around, stretch</p>
+
+<p>order: by default, this property is zero to all items in the flex container. The order of the items displayed is based in this number.</p>
+<p>align-self: align only the specific item.
+
