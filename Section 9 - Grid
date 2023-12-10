@@ -32,3 +32,4 @@ a size.</p>
 <p>There are properties span (merge) cells and place an item in it. The grid-column: span 2 makes the item span 2 cells in the horizontal. This command is a shortcut to two properties: grid-column-start and grid-column-end. There's also a similar property, the grid-row.
 Just like the flexbox tool, the grid items also have order number, which is useful in case we want to change the layout. Another way to choose the place of the grid to place the item is using the properties:grid-column-start, grid-column-end, grid-row-start and grid-row-end. </p>
 <p>These four properties can be written as grid-area: grid-row-start / grid-column-start / grid-row-end / grid-column-end. </p>
+<p>Grid allows an item to overlay items onto other items. To do so, we position one on top of each other. We can change the transparency of the background-color by adding two numbers at the end of the color hexcode.</p>
