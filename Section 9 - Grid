@@ -1,0 +1,14 @@
+<h1>Grid</h1>
+<h2>Flexbox vs Grid</h2>
+<p>The Flexbox is very useful to align the items and place then in the page, while the Grid is great for 2D layouts, with columns and rows. There's the possibility of combining these two tools, using Flexbox inside Grid or Grids inside Flexbox.</p>
+<p>Grid example:</p>
+<p>.container{
+display: grid;
+grid-template-columns: 1fr 2fr;
+grid-template-rows: 1fr 1fr;
+gap: 10px
+}</p>
+<p>The values 1fr and 2fr in the grid-template-columns property means that the first column will have a fraction of space in the ratio 1:2 compared to the second column e.g. first column 100px and second column 200px.</p>
+<p>It is also possible to assign pixel values to the properties above. grid-template-rows: 100px 200px (changes height of the row) grid-template-columns: 200px 400px (changes width of the column). Theses numerical values won't
+respond if the size of the website changes. There's also the auto value, which will make the column width occupy the rest of the page or make the row height adjust to the content.</p>
+
