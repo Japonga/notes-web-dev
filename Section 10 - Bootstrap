@@ -1,3 +1,8 @@
 <h1>Bootstrap</h1>
 <p>Bootsrap is a framework, a premade CSS file, based on flexbox. One of it's main characteristics is the 12 column layout. This framework is useful to add components quicker to the website. To use Bootstrap, it's necessary to copy the CDN link and paste it in the head section of the html file.
 IMPORTANT: If I want to use both Bootstrap and my CSS file, I should add the CSS link after the framework link, so that the framework style is used first, then my CSS is applied after.</p>
+
+<h2>Bootstrap Layout</h2>
+<p>The layout of the Bootstrap consists of a container div, a row, and items which widths are defined by the 12 column separation. To set an item width, it's attributed to the element the class "col" followed by a number, that is how many columns this item will occupy 
+e.g. col-6 class creates an item with a width of 6/12 or 50%. There are also breakpoints that can be added to the class, which will make the site responsive to multiple widths. These breakpoints are small (sm), medium (md), large (lg), extra large (xl) and extra extra 
+large (xxl).</p>
