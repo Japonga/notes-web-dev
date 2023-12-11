@@ -1,0 +1,3 @@
+<h1>Bootstrap</h1>
+<p>Bootsrap is a framework, a premade CSS file, based on flexbox. One of it's main characteristics is the 12 column layout. This framework is useful to add components quicker to the website. To use Bootstrap, it's necessary to copy the CDN link and paste it in the head section of the html file.
+IMPORTANT: If I want to use both Bootstrap and my CSS file, I should add the CSS link after the framework link, so that the framework style is used first, then my CSS is applied after.</p>
